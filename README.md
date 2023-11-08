@@ -1,16 +1,16 @@
-# Guía Rápida de Comandos de Git 🚀
+# Guía Rápida de Comandos de Git 🌟
 
-Git es un sistema de control de versiones distribuido que permite a los desarrolladores trabajar juntos y mantener un historial completo de su trabajo.
+Git es un sistema de control de versiones distribuido que facilita a los equipos de desarrollo el trabajo colaborativo y el seguimiento de los cambios en el código a lo largo del tiempo.
 
 ## Configuración Inicial
 
-- Configurar nombre de usuario y correo electrónico:
+- **Configurar nombre de usuario y correo electrónico:**
   ```
   git config --global user.name "Tu Nombre"
   git config --global user.email "tuemail@example.com"
   ```
 
-- Verificar configuración:
+- **Verificar configuración:**
   ```
   git config --list
   ```
@@ -69,20 +69,32 @@ Git es un sistema de control de versiones distribuido que permite a los desarrol
   git clone <url-del-repositorio>
   ```
 
+## Historial y Restauración
+
+- **git log**: Muestra el historial de commits.
+  ```
+  git log
+  ```
+
+- **git restore**: Restaura archivos en el área de trabajo.
+  ```
+  git restore <nombre-del-archivo>
+  ```
+
+- **git revert**: Crea un nuevo commit que deshace los cambios introducidos por commits anteriores.
+  ```
+  git revert <commit-hash>
+  ```
+
 ## Integración con VSCode
 
-VSCode tiene una integración directa con Git. Puedes utilizar la mayoría de estos comandos desde la interfaz de usuario, a través del panel de control de versiones.
+VSCode tiene integración directa con Git, permitiendo usar la mayoría de estos comandos a través de la interfaz gráfica, accesible desde el panel de control de versiones.
 
 ## Extras
 
 - **git status**: Muestra el estado de los archivos en tu rama actual.
   ```
   git status
-  ```
-
-- **git log**: Muestra el historial de commits.
-  ```
-  git log
   ```
 
 - **git diff**: Muestra las diferencias de archivo que no han sido preparadas.
