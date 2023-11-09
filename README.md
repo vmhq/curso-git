@@ -2,6 +2,8 @@
 
 Git es un sistema de control de versiones distribuido que facilita a los equipos de desarrollo el trabajo colaborativo y el seguimiento de los cambios en el código a lo largo del tiempo.
 
+El código presente en el repositorio es para usarlo de ejemplo en el uso de Git.
+
 ## Configuración Inicial
 
 - **Configurar nombre de usuario y correo electrónico:**
